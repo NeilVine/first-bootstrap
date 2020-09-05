@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand pr-3" href="#">Bootstrap Example</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+
+
+    <section class="mx-auto pt-3" style="width: 50%; ">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="4000">
+          <img src="images/HillsongParis.JPG" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Hillsong Church Paris</h5>
+            <p>August 2019, Le théâtre Bobino, 14 Rue de la Gaité, 75014 Paris, France </p>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="images/hotel1.JPG" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Mug display</h5>
+            <p>Novotel Paris Centre Gare Montparnasse</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="images/hotel2.JPG" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Guest photos on wall</h5>
+            <p>Novotel Paris Centre Gare Montparnasse</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+  <section id="title" class="p-3 mt-3">
+
+    <h1>A responsive web page written using Bootstrap</h1>
+
+    <h2>Understanding columns</h2>
+
+
+
+    <p>The width of the screen is divided into 12 units. On a wide screen 4 columns are shown, reducing to 3, 2 and finally 1 column at the smallest screen width.</p>
+
+    <p>The syntax to acheve this is col-'screen size'-'Number of units': col-lg-3 col-md-4 col-sm-6 col-12 </p>
+
+    <p>View the page at different widths to observe columns changing.</p>
+
+  </section>
+
+  <section id="photo_grid" class="py-3">
+<!--screen is split into 12 col-md-4 means that for a medium size screen,
+give the column 4 or of the 12 columns-->
+      <div class="container  " >
+        <div class="row ">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/Fish.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/CSLewis.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/balls.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/bird.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 18rem;" src="images/HillsongParis.JPG" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                  </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 18rem;" src="images/horse.JPG" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                  </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 18rem;" src="images/hotel1.JPG" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                  </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 18rem;" src="images/hotel2.JPG" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                  </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 18rem;" src="images/James.JPG" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 18rem;" src="images/Pyramid.JPG" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card mx-auto" style="width: 18rem;">
+                  <img class="card-img-top" style="height: 18rem;" src="images/sheep.JPG" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                  </div>
+              </div>
+            </div>
+         
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/Titanic.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/Tower.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/Troco.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="card mx-auto" style="width: 18rem;">
+                <img class="card-img-top" style="height: 18rem;" src="images/watercress.JPG" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">The Big Fish (or Salmon of Knowledge). River Lagan, Belfast. A printed ceramic mosaic sulpture by John Kindness. Constructed in 1999 to celebrate the regeneration of the river.</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="magna" class="pb-3">
+      <h2> Et magna tempor mollit et magna ea.</h2>
+
+      <p>Nulla anim ad cupidatat non dolore Lorem minim in dolor proident exercitation duis. Amet ut ex labore enim eu ipsum. Officia amet reprehenderit aliqua dolor quis consectetur dolor aliquip consequat consectetur aliqua eiusmod id tempor. Mollit aliqua ad enim magna voluptate irure exercitation duis enim ex eu. Officia laboris nisi amet in quis excepteur amet ullamco consequat fugiat. Irure Lorem est sit eiusmod est.</p>
+
+      <p>Eu non do ullamco laborum in cillum elit aliquip aute. Dolore deserunt officia deserunt sint consequat amet fugiat tempor deserunt commodo dolore velit commodo deserunt. Aliquip dolore sint non adipisicing. Labore ea aliqua labore nostrud culpa et cillum. Occaecat commodo ad duis pariatur ea labore voluptate amet qui sit cillum. Duis enim dolore veniam est Lorem laboris deserunt Lorem non consectetur. Reprehenderit do deserunt nisi anim incididunt aliqua magna Lorem veniam.</p>
+
+      <p>Culpa aute consectetur non sint sint et sunt qui non enim commodo. Id irure magna dolor in amet incididunt elit. Voluptate ullamco consectetur excepteur est aute. Aliquip minim occaecat exercitation Lorem in. Quis officia est reprehenderit laboris.</p>
+ 
+     </section>
+
+      <section id="mollit">
+      <h2>Mollit tempor et magna ea.</h2>
+
+      <p>Nulla anim ad cupidatat non dolore Lorem minim in dolor proident exercitation duis. Amet ut ex labore enim eu ipsum. Officia amet reprehenderit aliqua dolor quis consectetur dolor aliquip consequat consectetur aliqua eiusmod id tempor. Mollit aliqua ad enim magna voluptate irure exercitation duis enim ex eu. Officia laboris nisi amet in quis excepteur amet ullamco consequat fugiat. Irure Lorem est sit eiusmod est.</p>
+
+      <p>Eu non do ullamco laborum in cillum elit aliquip aute. Dolore deserunt officia deserunt sint consequat amet fugiat tempor deserunt commodo dolore velit commodo deserunt. Aliquip dolore sint non adipisicing. Labore ea aliqua labore nostrud culpa et cillum. Occaecat commodo ad duis pariatur ea labore voluptate amet qui sit cillum. Duis enim dolore veniam est Lorem laboris deserunt Lorem non consectetur. Reprehenderit do deserunt nisi anim incididunt aliqua magna Lorem veniam.</p>
+
+      <p>Culpa aute consectetur non sint sint et sunt qui non enim commodo. Id irure magna dolor in amet incididunt elit. Voluptate ullamco consectetur excepteur est aute. Aliquip minim occaecat exercitation Lorem in. Quis officia est reprehenderit laboris.</p>
+      </section>
+
+      <h1>Minim quis tempor veniam veniam pariatur pariatur.</h1>
+
+      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima recusandae quibusdam natus adipisci exercitationem sit facilis id perferendis fugit corporis nihil eligendi provident quasi aut alias, praesentium ea quisquam accusantium!</h2>
+
+  </body>
+</html>
